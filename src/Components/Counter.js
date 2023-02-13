@@ -6,8 +6,8 @@ import {
 } from "../services/actions/counterAction";
 
 const Counter = () => {
-  const count = useSelector((state) => state.count);
-  console.log(count);
+  const count = useSelector((state) => state.countR.count);
+  console.log(count)
   const dispatch = useDispatch();
   // using react
   //   const [count, setCount] = useState(0);
